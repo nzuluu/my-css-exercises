@@ -1,0 +1,22 @@
+/* style.css */
+
+/* This method combines type and class selectors
+   it also be written as: .container p { rules here }
+*/
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+};
+
+/* This method uses just class selectors:
+
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+};
+
+*/
