@@ -1,0 +1,20 @@
+/* styles.css */
+.oddnum {
+    background-color: #ffb6c1;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.oddnum.third {
+    font-size: 24px;
+}
+
+#twonum {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#fournum {
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: bold;
+}
