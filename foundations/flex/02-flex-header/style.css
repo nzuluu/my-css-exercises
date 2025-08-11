@@ -1,10 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .logo {
@@ -18,10 +19,12 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+
+  /* this creates another container inside header container */
   display: flex;
   gap: 8px;
   margin: 26px auto;
-  padding-inline-start: 0%;
+  padding: 0px 6px 0px 6px;
 }
 
 a {
