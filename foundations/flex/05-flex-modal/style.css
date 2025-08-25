@@ -59,6 +59,7 @@ body {
   padding: 0;
 }
 
+
 button {
   cursor: pointer;
   padding: 8px 16px;
@@ -79,6 +80,7 @@ button.cancel {
 
 .header {
   font-weight: bold;
+  font-size: large;
 }
 
 /*Contains both header and close button*/
@@ -90,7 +92,7 @@ button.cancel {
 
 /*Aligns the closed button to the left */
 .close-button {
-  margin-left: 150px;
+  margin-left: 120px;
 }
 
 /*Surround header, button, main text, cancel, and continue divs */
