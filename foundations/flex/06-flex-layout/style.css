@@ -56,5 +56,8 @@ a {
 .content {
   flex: 1;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
   gap: 16px;
 }
